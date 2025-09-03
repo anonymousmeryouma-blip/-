@@ -75,6 +75,9 @@ const ModernQualityButton: React.FC = () => {
               }`} 
             />
             <span className="text-sm sm:text-lg whitespace-nowrap">زِيدي زهرة من صفاتك</span>
+            <span className="text-sm sm:text-lg whitespace-nowrap">
+              {shownQualities.length === 0 ? 'أزهار صفاتك' : 'زِيدي زهرة من صفاتك'}
+            </span>
             <Heart 
               size={18} 
               className={`transition-all duration-300 ${
