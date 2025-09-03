@@ -73,6 +73,8 @@ const ModernQualityButton: React.FC = () => {
               className={`transition-transform duration-300 ${
                 isAnimating ? 'rotate-180 scale-110' : 'group-hover:rotate-90'
               }`} 
+            />
+            <span>
               {shownQualities.length === 0 ? 'أزهار صفاتك' : 'زِيدي زهرة من صفاتك'}
             </span>
             <Heart 
